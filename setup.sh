@@ -140,7 +140,7 @@ install_cargo_tools() {
     success "bat already installed"
   else
     info "Installing bat (custom fork)..."
-    ~/.cargo/bin/cargo install --git https://github.com/benjervis/bat
+    ~/.cargo/bin/cargo install --git https://github.com/benjervis/bat --branch add-file-modified-time
     success "bat installed"
   fi
 }
