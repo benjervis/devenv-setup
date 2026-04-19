@@ -175,7 +175,7 @@ install_brew_packages() {
 
   # Fonts (casks)
   local casks=(
-    font-fira-code-nerd-font  # Nerd Font icons + Legacy Computing symbols for Neovim/tmux (use as Non-ASCII font in iTerm2)
+    font-symbols-only-nerd-font  # Nerd Font icons + Legacy Computing symbols for Neovim/tmux (use as Non-ASCII font in iTerm2)
   )
 
   for cask in "${casks[@]}"; do
